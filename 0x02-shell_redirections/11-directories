@@ -1,0 +1,6 @@
+#!/bin/bash
+count=0
+for dir in $(find . -type d | grep -v '^\.$' | grep -v '^\.\.$'); do
+    ((count++))
+done
+echo $count
