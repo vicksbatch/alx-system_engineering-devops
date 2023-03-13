@@ -1,2 +1,2 @@
 #!/bin/bash
-sort "$@" | uniq -u | grep -x '[[:alnum:]]\+'
+sort | uniq -u
